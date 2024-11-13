@@ -12,7 +12,8 @@ function Home() {
 
   const urlImg = "https://image.tmdb.org/t/p/original";
   useEffect(() => {
-    fetch(`https://mymoviz-backend-rosy.vercel.app/movies`)
+    fetch(`http://localhost:3000/movies`)
+      // fetch(`https://mymoviz-backend-rosy.vercel.app/movies`)
       .then((response) => response.json())
       .then((data) => {
         const newKeys = {
