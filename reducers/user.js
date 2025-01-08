@@ -34,7 +34,6 @@ export const nomDuReducerSlice = createSlice({
       }
     },
     updateNote: (state, action) => {
-      console.log(state.value.personalNote);
       if (
         state.value.personalNote.find(
           (element) => element.title === action.payload.movieTitle

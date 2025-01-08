@@ -16,6 +16,7 @@ function Home() {
   const dispatch = useDispatch();
 
   const urlImg = "https://image.tmdb.org/t/p/original";
+
   useEffect(() => {
     fetch("https://mymoviz-backend-rosy.vercel.app/movies")
       .then((response) => response.json())
@@ -54,7 +55,6 @@ function Home() {
   };
 
   const likedMoviesPopover = user.likedMovies.map((data, i) => {
-    console.log(data);
     return (
       <div key={i} className={styles.likedMoviesContainer}>
         <span className="likedMovie">{data}</span>
