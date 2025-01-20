@@ -4,7 +4,7 @@ My Moviz est une application web qui met en avant les derniers films populaires 
 ## 🌟 Foncionnalités
 - Affichage des films populaires : Accédez aux derniers films populaires avec leurs détails (titre, résumé, genre, note, etc.).
 - Ajout aux favoris : Sauvegardez vos films préférés dans une liste personnelle.
-- Système de notation : Évaluez les films que vous avez vus et consultez les notes des autres utilisateurs.
+- Système de notation : Évaluez les films que vous avez vus.
 - Sauvegarde persistante : Les films ajoutés aux favoris et les notes sont conservés grâce à Redux Persist, même après un rechargement de la page.
 
 
@@ -18,7 +18,6 @@ My Moviz est une application web qui met en avant les derniers films populaires 
 - Back-end
   - Node.JS : Environnement d'exécution JavaScript côté serveur.
   - Express.JS : Framework pour construire des API REST.
-  - MongoDB :Base de données NoSQL pour stocker les informations des utilisateurs, leurs favoris, et les notes attribuées.
 
 ## 📸 Captures d'écran
 [![mymoviz-home.png](https://i.postimg.cc/6q2X5PKK/mymoviz-home.png)](https://postimg.cc/rRkbfQzZ)
